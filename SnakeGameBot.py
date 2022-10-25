@@ -1,5 +1,10 @@
-# Snake Game 
-# By Keenan Kalra
+'''
+Created by Keenan Kalra
+2022
+This is a classic snake game with a twist. The user simply watches and presses nothing.
+The program uses Almighty Move in which the snake just follows the same pattern throughout
+the entire game. 
+'''
 
 import turtle
 import time
@@ -415,7 +420,7 @@ while True:
         food.goto(random.randrange(-280, 280, 20), random.randrange(-280, 280, 20))
         
         for segment in segments:
-            while segment.xcor()  == food.xcor() and segment.ycor() == food.ycor():
+            while segment.xcor() == food.xcor() and segment.ycor() == food.ycor():
                 food.goto(random.randrange(-280, 280, 20), random.randrange(-280, 280, 20))
         # Shorten the Delay
         # delay -= 0.00001
