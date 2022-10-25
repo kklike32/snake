@@ -1,5 +1,10 @@
-# Snake Game 
-# By Keenan Kalra
+'''
+Created by Keenan Kalra
+2022
+This is a classic snake game in which the user uses the arrow keys to
+move the snake. Every apple the snake eats, it grows bigger. If the snake
+hits its own body or the wall it dies. 
+'''
 
 import turtle
 import time
